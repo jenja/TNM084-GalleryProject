@@ -1,2 +1,39 @@
-body { margin: 0; }
-canvas { width: 100%; height: 100%}
+
+canvas {
+    width: 100%;
+    height: 100%
+}
+
+header {
+    width: 100%;
+    height: 20%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+    background-color: lightgray;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: cornflowerblue;
+}
+
+footer {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
