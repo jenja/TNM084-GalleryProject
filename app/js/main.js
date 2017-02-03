@@ -3,5 +3,5 @@
  */
 function main() {
 
-
+    document.getElementById("test").innerHTML = "Paragraph changed.";
 }
