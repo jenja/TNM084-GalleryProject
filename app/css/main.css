@@ -1,18 +1,10 @@
-
-canvas {
-    width: 100%;
-    height: 100%
+html,body {
+    margin: 0;
+    height: 100%;
 }
 
 header {
-    width: 100%;
-    height: 20%;
-}
-
-body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
+    min-height: 15%;
 }
 
 .flex-container {
@@ -21,19 +13,17 @@ body {
     -webkit-justify-content: space-around;
     justify-content: space-around;
     width: 100%;
-    height: 60%;
+    min-height: 75%;
     background-color: lightgray;
 }
 
 .flex-item {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    min-height: 100%;
     margin: 10px;
     background-color: cornflowerblue;
 }
 
 footer {
-    margin: 0;
-    width: 100%;
-    height: 100%;
+    min-height: 10%;
 }
